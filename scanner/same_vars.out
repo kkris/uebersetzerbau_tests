@@ -1,0 +1,18 @@
+ident foo
+=
+fun
+ident x
+->
+ident x
+end
+;
+ident bar
+=
+fun
+ident x
+->
+ident x
++
+ident x
+end
+;

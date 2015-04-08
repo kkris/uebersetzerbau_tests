@@ -1,0 +1,295 @@
+ident add
+=
+fun
+num x
+->
+num 0
++
+(
+num 1
++
+(
+2
++
+(
+3
++
+(
+4
++
+(
+5
++
+(
+6
++
+(
+7
++
+(
+8
++
+(
+9
++
+10
+)
+)
+)
+)
+)
+)
+)
+)
+)
+end
+;
+ident add2
+=
+fun
+ident x
+->
+num 66
++
+num 1337
+end
+;
+ident sub
+=
+fun
+ident x
+->
+(
+(
+(
+(
+(
+(
+(
+(
+(
+num 1000 
+-
+num 9
+)
+-
+num 8
+)
+-
+num 7
+)
+-
+num 6
+)
+-
+num 5
+)
+-
+num 4
+)
+-
+num 3
+)
+-
+num 2
+)
+-
+num 1
+)
+-
+num 0
+end
+;
+ident mul
+=
+fun
+ident x
+->
+num 1
+*
+(
+num 2
+*
+(
+num 3
+*
+(
+num 4
+*
+(
+num 5
+*
+num 6
+)
+)
+)
+)
+end
+;
+ident mulzero
+=
+fun
+ident x
+->
+num 1
+*
+(
+num 2
+*
+(
+num 3
+*
+(
+num 4
+*
+(
+num 5
+*
+(
+num 6
+*
+num 0
+)
+)
+)
+)
+)
+end
+;
+ident not1
+=
+fun
+ident x
+->
+not
+num 2
+end
+;
+ident not2
+=
+fun
+ident x
+->
+not
+(
+not
+(
+not
+(
+not
+num 2
+)
+)
+)
+end
+;
+ident not3 
+=
+fun
+ident x
+->
+not
+num 1
+end
+;
+ident and1
+=
+fun
+ident x
+->
+num 1
+and
+(
+num 2
+and
+(
+num 3
+and
+(
+num 4
+and
+(
+num 5
+and
+(
+num 6
+and
+num 7
+)
+)
+)
+)
+)
+end
+;
+ident and2
+=
+fun
+ident x
+->
+num 5
+and
+num 4
+end
+;
+ident lt
+=
+fun
+ident x
+->
+num 1
+<
+num 2
+end
+;
+ident lt2
+=
+fun
+ident x
+->
+num 2
+<
+num 1
+end
+;
+ident eq
+=
+fun
+ident x
+->
+num 2
+=
+num 3
+end
+;
+ident eq2
+=
+fun
+ident x
+->
+num 1
+=
+num 1
+end
+;
+ident isnum1
+=
+fun
+ident x
+->
+isnum
+num 1
+end
+;
+ident isnum2
+=
+fun
+ident x
+->
+isnum
+(
+isnum
+num 66
+)
+end
+;

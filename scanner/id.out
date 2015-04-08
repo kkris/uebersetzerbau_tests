@@ -1,0 +1,8 @@
+ident id
+=
+fun
+ident x
+->
+ident x
+end
+;

@@ -1,0 +1,9 @@
+ident inv
+=
+fun
+ident x
+->
+not
+ident x
+end
+;

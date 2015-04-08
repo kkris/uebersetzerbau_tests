@@ -1,0 +1,19 @@
+ident second
+=
+fun
+ident y
+->
+ident first
+ident y
+end
+;
+ident first
+=
+fun
+ident x
+->
+ident x
++
+ident x
+end
+;

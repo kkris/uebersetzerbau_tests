@@ -1,0 +1,221 @@
+ident f1
+=
+fun
+ident x
+->
+ident x
++
+num 1
+end
+;
+ident f2
+=
+fun
+ident x
+->
+num 1
++
+ident x
+end
+;
+ident f3
+=
+fun
+ident x
+->
+ident x
++
+ident x
+end
+;
+ident f4
+=
+fun
+ident x
+->
+ident x
++
+(
+num 1
++
+num 1
+)
+end
+;
+ident f5
+=
+fun
+ident x
+->
+ident x
++
+(
+ident x
++
+num 1
+)
+end
+;
+ident f6
+=
+fun
+ident x
+->
+ident x
++
+(
+num 1
++
+ident x
+)
+end
+;
+ident f7
+=
+fun
+ident x
+->
+(
+ident x
++
+num 1
+)
++
+ident x
+end
+;
+ident f8
+=
+fun
+ident x
+->
+(
+num 1
++
+ident x
+)
++
+ident x
+end
+;
+ident f9
+=
+fun
+ident x
+->
+(
+ident x
++
+num 1
+)
++
+(
+num 1
++
+ident x
+)
+end
+;
+ident f10
+=
+fun
+ident x
+->
+ident x
++
+num 0
+end
+;
+ident f11
+=
+fun
+ident x
+->
+num 0
++
+ident x
+end
+;
+ident f12
+=
+fun
+ident x
+->
+ident x
++
+(
+num 0
++
+(
+num 1
+*
+num 0
+)
+)
+end
+;
+ident f13
+=
+fun
+ident x
+->
+ident x
++
+(
+num 5
+-
+num 5
+)
+end
+;
+ident f14
+=
+fun
+ident x
+->
+ident x
++
+(
+num 3
+-
+(
+not
+num 2
+)
+)
+end
+;
+ident f15
+=
+fun
+ident x
+->
+(
+(
+ident x
++
+num 1
+)
++
+(
+ident x
++
+num 2
+)
+)
++
+(
+(
+ident x
++
+num 3
+)
++
+(
+ident x
++
+num 4
+)
+)
+end
+;

@@ -1,0 +1,32 @@
+ident f1
+=
+fun
+ident x
+->
+num 5
+end
+;
+ident f2
+=
+fun
+ident x
+->
+num 3405691582 
+end
+;
+ident f3
+=
+fun
+ident x
+->
+num 5
+end
+;
+ident f4
+=
+fun
+ident x
+->
+num 5
+end
+;

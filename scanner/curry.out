@@ -1,0 +1,50 @@
+ident plus
+=
+fun
+ident x
+->
+fun
+ident y
+->
+ident x
++
+ident y
+end
+end
+;
+ident minus
+=
+fun
+ident x
+->
+fun
+ident y
+->
+ident x
+-
+ident y
+end
+end
+;
+ident plusminus
+=
+fun
+ident x
+->
+fun
+ident y
+->
+fun
+ident z
+->
+(
+ident x
++
+ident y
+)
+-
+ident z
+end
+end
+end
+;

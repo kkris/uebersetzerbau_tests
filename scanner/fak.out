@@ -1,0 +1,25 @@
+ident fak
+=
+fun
+ident n
+->
+if
+ident n
+<
+num 2
+then
+ident n
+else
+ident n
+*
+(
+ident fak
+(
+ident n
+-
+num 1
+)
+)
+end
+end
+;

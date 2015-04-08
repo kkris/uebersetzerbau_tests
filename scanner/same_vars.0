@@ -1,0 +1,2 @@
+foo = fun x -> x end ;
+bar = fun x -> x + x end;

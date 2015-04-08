@@ -1,0 +1,29 @@
+ident swap
+=
+fun
+ident list
+->
+let
+ident x
+=
+head
+ident list
+in
+let
+ident y
+=
+head
+(
+tail
+ident list
+)
+in
+(
+ident y
+.
+ident x
+)
+end
+end
+end
+;

@@ -1,0 +1,1 @@
+fak = fun n -> if n < 2 then n else n * (fak (n - 1)) end end;

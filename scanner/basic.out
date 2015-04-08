@@ -1,0 +1,8 @@
+ident foo
+=
+fun
+ident bar
+->
+num 42
+end
+;

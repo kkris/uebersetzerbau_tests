@@ -1,0 +1,52 @@
+ident fib
+=
+fun
+ident n
+->
+(
+(
+ident fib2
+num 0
+)
+num 1
+)
+ident n
+end
+;
+ident fib2
+=
+fun
+ident a
+->
+fun
+ident b
+->
+fun
+ident n
+->
+if
+ident n
+then
+ident a
+else
+(
+(
+ident fib2
+ident b
+)
+(
+ident a
++
+ident b
+)
+)
+(
+ident n
+-
+num 1
+)
+end
+end
+end
+end
+;

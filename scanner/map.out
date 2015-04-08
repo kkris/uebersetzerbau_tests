@@ -1,0 +1,65 @@
+ident map
+=
+fun
+ident func
+->
+fun
+ident list
+->
+if
+not
+(
+islist
+ident list
+)
+then
+ident list
+else
+let
+ident x
+=
+func
+(
+head
+ident list
+)
+in
+ident x
+.
+(
+(
+map
+ident func
+)
+(
+tail
+ident list
+)
+)
+end
+end
+end
+end
+;
+ident times2
+=
+fun
+ident x
+->
+num 2
+*
+ident x
+end
+;
+ident main
+=
+fun
+ident list
+->
+(
+ident map
+ident times2
+)
+ident list
+end
+;

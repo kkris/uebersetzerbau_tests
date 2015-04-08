@@ -1,0 +1,63 @@
+ident max
+=
+fun
+ident list
+->
+(
+ident max2
+ident list
+)
+num 0
+end
+;
+ident max2
+=
+fun
+ident list
+->
+fun
+ident curmax
+->
+if
+not
+(
+islist
+ident list
+)
+then
+ident curmax
+else
+let
+ident x
+=
+head
+ident list
+in
+if
+ident x
+<
+ident curmax
+then
+(
+ident max2
+(
+tail
+ident list
+)
+)
+ident curmax
+else
+(
+ident max2
+(
+tail
+ident list
+)
+)
+ident x
+end
+end
+end
+end
+end
+;
