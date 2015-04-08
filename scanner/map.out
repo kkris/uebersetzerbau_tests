@@ -18,7 +18,7 @@ else
 let
 ident x
 =
-func
+ident func
 (
 head
 ident list
@@ -28,7 +28,7 @@ ident x
 .
 (
 (
-map
+ident map
 ident func
 )
 (
