@@ -3,13 +3,9 @@ ident fib
 fun
 ident n
 ->
-(
-(
 ident fib2
 num 0
-)
 num 1
-)
 ident n
 end
 ;
@@ -26,19 +22,17 @@ ident n
 ->
 if
 ident n
+=
+num 0
 then
 ident a
 else
-(
-(
-ident fib2
+ident fib2 
 ident b
-)
 (
 ident a
 +
 ident b
-)
 )
 (
 ident n
