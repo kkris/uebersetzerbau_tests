@@ -1,0 +1,13 @@
+map = fun func -> fun list ->
+    if not (islist list)
+    then
+        list // empty list ?
+    else
+        let x = func (head list) in 
+            x . ((map func) (tail list))
+        end
+    end
+end end;
+
+times2 = fun x -> 2 * x end;
+main = fun list -> (map times2) list end;

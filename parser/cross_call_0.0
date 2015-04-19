@@ -1,0 +1,2 @@
+first = fun x -> x + x end;
+second = fun y -> first y end;

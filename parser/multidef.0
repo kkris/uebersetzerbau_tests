@@ -1,0 +1,3 @@
+foo = fun x -> 42 end;
+bar = fun x -> $42 end ;
+frobinator = fun x -> x end ;

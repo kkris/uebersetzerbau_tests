@@ -1,0 +1,7 @@
+f1 = fun x -> isnum $42 end;
+f2 = fun x -> isnum (isnum 0) end;
+f3 = fun x -> isnum x end;
+f4 = fun x -> isnum (x + 1) end;
+f5 = fun x -> isnum (x * 0) end;
+f6 = fun x -> isnum (isnum (x + 1)) end;
+f7 = fun x -> isnum (isnum (x * 1)) end;

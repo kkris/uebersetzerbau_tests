@@ -1,0 +1,1 @@
+foo = fun bar -> 42 end ;

@@ -1,0 +1,2 @@
+fib = fun n -> ((fib2 0) 1) n end ;
+fib2 = fun a -> fun b -> fun n -> if n then a else ((fib2 b) (a + b)) (n - 1) end end end end;
