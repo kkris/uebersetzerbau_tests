@@ -1,0 +1,1 @@
+max = fun list -> (let x = head list in (let y = head (tail list) in (if x < y then y else x end) end) end) end ;

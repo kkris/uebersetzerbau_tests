@@ -1,0 +1,3 @@
+plus = fun x -> fun y -> x + y end end;
+minus = fun x -> fun y -> x - y end end;
+plusminus = fun x -> fun y -> fun z -> (x + y) - z end end end;

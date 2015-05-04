@@ -1,0 +1,16 @@
+f1 = fun x -> x - 1 end;
+f2 = fun x -> 1 - x end;
+f3 = fun x -> x - x end;
+f4 = fun x -> x - (1 + 1) end;
+f5 = fun x -> x - (x - 1) end;
+f6 = fun x -> x - (1 - x) end;
+f7 = fun x -> (x - 1) - x end;
+f8 = fun x -> (1 - x) - x end;
+f9 = fun x -> (x - 1) - (1 + x) end;
+f10 = fun x -> x - 0 end;
+f11 = fun x -> 0 - x end;
+f12 = fun x -> x - (0 + (1 * 0)) end;
+f13 = fun x -> x - (5 - 5) end;
+f14 = fun x -> x - (3 - (not 2)) end;
+f15 = fun x -> ((x - 1) + (x - 2)) - ((x - 3) + (x - 5)) end;
+f16 = fun x -> ((x - 1) - (x - 2)) - ((x - 3) - (x - 5)) end;

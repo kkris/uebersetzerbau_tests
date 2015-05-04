@@ -1,0 +1,1 @@
+swap = fun list -> let x = head list in let y = head (tail list) in (y . x) end end end ;

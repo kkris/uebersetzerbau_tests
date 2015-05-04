@@ -1,0 +1,3 @@
+foo = fun x -> x end;
+bar = fun y -> y end ;
+frobinator = fun z -> z end ;

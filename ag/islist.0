@@ -1,0 +1,5 @@
+f1 = fun x -> islist 0 end;
+f2 = fun x -> islist (10 - (4 + 5)) end;
+f3 = fun x -> islist x end;
+f4 = fun x -> islist (x - 1) end;
+//f5 = fun x -> islist (x.10) end;
