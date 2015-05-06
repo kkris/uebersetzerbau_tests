@@ -1,0 +1,19 @@
+map = fun f -> fun list ->
+    let recurse = fun r -> fun l ->
+        if islist l
+            then (f (head l)) . ((r  r) (tail l))
+            else f l
+        end
+    end end
+    in 
+        if islist list
+            then recurse recurse list
+            else 999
+        end
+     end
+end end;
+
+
+times2 = fun x -> 2 * x end;
+main = fun l -> map times2 l end;
+
