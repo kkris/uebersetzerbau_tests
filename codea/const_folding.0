@@ -1,0 +1,16 @@
+add = fun x -> 0 + (1 + (2 + (3 + (4 + (5 + (6 + (7 + (8 + (9 + 10))))))))) end;
+add2 = fun x -> $42 + 1337 end;
+sub = fun x -> (((((((((1000 - 9) - 8) - 7) - 6) - 5) - 4) - 3) - 2) - 1) - 0 end;
+mul = fun x -> 1 * (2 * (3 * (4 * (5 * 6)))) end;
+mulzero = fun x -> 1 * (2 * (3 * (4 * (5 * (6 * 0))))) end;
+not1 = fun x -> not 2 end;
+not2 = fun x -> not not not not 2 end;
+not3 = fun x -> not 1 end;
+and1 = fun x -> 1 and (2 and (3 and (4 and (5 and (6 and 7))))) end;
+and2 = fun x -> 5 and 4 end;
+lt = fun x -> 1 < 2 end;
+lt2 = fun x -> 2 < 1 end;
+eq = fun x -> 2 = 3 end;
+eq2 = fun x -> 1 = 1 end;
+isnum1 = fun x -> isnum 1 end;
+isnum2 = fun x -> isnum (isnum $42) end;

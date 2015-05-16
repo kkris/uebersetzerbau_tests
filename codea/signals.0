@@ -1,0 +1,11 @@
+f1 = fun x -> 0 * (isnum (0 + (0 . 0))) end ;
+f2 = fun x -> (x.1) + x end;
+f3 = fun x -> head isnum head tail (1.x.3) end;
+f4 = fun x -> islist (4 + x) end;
+f5 = fun x -> x * (x.x) end;
+f6 = fun x -> 3 - (1.2) end;
+f7 = fun x -> 0 and (x.x) end;
+f8 = fun x -> not (x.2) end;
+f9 = fun x -> (4.5) < (3.4) end;
+f10 = fun x -> (4.5) < 2 end;
+f11 = fun x -> 1 < (1.2) end;

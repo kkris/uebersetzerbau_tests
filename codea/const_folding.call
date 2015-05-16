@@ -1,0 +1,33 @@
+extern long add(long);
+extern long sub(long);
+extern long mul(long);
+extern long mulzero(long);
+extern long not1(long);
+extern long not2(long);
+extern long not3(long);
+extern long and1(long);
+extern long and2(long);
+extern long lt(long);
+extern long lt2(long);
+extern long eq(long);
+extern long eq2(long);
+extern long isnum1(long);
+extern long isnum2(long);
+
+RET(	(add(0 << 1) == (55 << 1)) &&
+	(add2(0 << 1) == (1403 << 1)) &&
+	(sub(0 << 1) == (955 << 1)) &&
+	(mul(0 << 1) == (720 << 1)) &&
+	(mulzero(0 << 1) == (0 << 1)) &&
+	(not1(0 << 1) == (3 << 1)) &&
+	(not2(0 << 1) == (2 << 1)) &&
+	(not3(0 << 1) == (0 << 1)) &&
+	(and1(0 << 1) == (0 << 1)) &&
+	(and2(0 << 1) == (4 << 1)) &&
+	(lt(0 << 1) == (1 << 1)) &&
+	(lt2(0 << 1) == (0 << 1)) &&
+	(eq(0 << 1) == (0 << 1)) &&
+	(eq2(0 << 1) == (1 << 1)) &&
+	(isnum1(0 << 1) == (1 << 1)) &&
+	(isnum2(0 << 1) == (1 << 1))
+);

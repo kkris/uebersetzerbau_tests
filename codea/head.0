@@ -1,0 +1,15 @@
+f1 = fun x -> head 1 end;
+f2 = fun x -> head f2 end;
+f3 = fun x -> head (1.2) end;
+f4 = fun x -> head (1.x) end;
+f5 = fun x -> head (x.1) end;
+f6 = fun x -> head (x.x) end;
+f7 = fun x -> head (1.2.3.4.5.6) end;
+f8 = fun x -> head (6.5.4.3.2.1) end;
+f9 = fun x -> head (x.x.x.x.x.x) end;
+f10 = fun x -> head (1.2.x.x.4.5.x.x.6) end;
+f11 = fun x -> head head (1.1) end;
+f12 = fun x -> head head ((1.1).1) end;
+f13 = fun x -> head head ((x.1).x) end;
+f14 = fun x -> head ((x * 2).(x * 3).(x * 4).(x * 5)) end;
+f15 = fun x -> head ((x + 1).(x + 2).(x + 3).(x + 4)) end;

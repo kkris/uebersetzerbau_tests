@@ -1,0 +1,10 @@
+extern long f1(long);
+extern long f2(long);
+extern long f3(long);
+extern long f4(long);
+
+RET(	(f1(1337 << 1) == (5 << 1)) &&
+	(f2(0 << 1) == (3405691582 << 1)) &&
+	(f3(-42 << 1) == (5 << 1)) &&
+	(f4(1234 << 1) == (5 << 1))
+);

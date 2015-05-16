@@ -1,0 +1,13 @@
+extern long f1(long);
+extern long f2(long);
+extern long f3(long);
+extern long f4(long);
+extern long f5(long);
+extern long f6(long);
+extern long f7(long);
+extern long f8(long);
+extern long f9(long);
+extern long f10(long);
+extern long f11(long);
+
+);

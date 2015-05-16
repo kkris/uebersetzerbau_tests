@@ -1,0 +1,13 @@
+f1 = fun x -> x and x end;
+f2 = fun x -> x and x and x and x end;
+f3 = fun x -> x and 1 and x and 2 and 3 end;
+f4 = fun x -> 1 and 2 and 3 and 4 and 5 and 6 end;
+f5 = fun x -> x and (x + 1) end;
+f6 = fun x -> x and (4 * 2) end;
+f7 = fun x -> x and (4 * 2) and 24 end;
+f8 = fun x -> x and (2 * x) end;
+f9 = fun x -> 0 and x end;
+f10 = fun x -> x and (not not not x) end;
+f11 = fun x -> (x - x) and x end;
+f12 = fun x -> (x * 0) and x end;
+f13 = fun x -> (x + 1) and (x + 1) and (x + 1) and (x + 1) and (x + 1) end;

@@ -1,0 +1,13 @@
+f1 = fun x -> 5 = 5 end;
+f2 = fun x -> x = 5 end;
+f3 = fun x -> 5 = x end;
+f4 = fun x -> x = x end;
+f5 = fun x -> (1 + 2) = (2 + 1) end;
+f6 = fun x -> (x + 1) = (1 + x) end;
+f7 = fun x -> x = (not x) end;
+f8 = fun x -> 5 = (not x) end;
+f9 = fun x -> 10 = (2 * x) end;
+f10 = fun x -> (0.0) = (0.0) end;
+f11 = fun x -> 1 = (0.0) end;
+f12 = fun x -> (0.0) = 1 end;
+f13 = fun x -> (head (x.1)) = (tail (1.x)) end;
